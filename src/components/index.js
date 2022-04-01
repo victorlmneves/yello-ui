@@ -1,9 +1,9 @@
-import BaseButton from './BaseButton/BaseButton.vue'
-import BaseInput from './BaseInput/BaseInput.vue'
-import BaseTextarea from './BaseTextarea/BaseTextarea.vue'
+import YelloButton from './YelloButton/YelloButton.vue'
+import YelloInput from './YelloInput/YelloInput.vue'
+import YelloTextarea from './YelloTextarea/YelloTextarea.vue'
 
 export default {
-    BaseButton,
-    BaseInput,
-    BaseTextarea
+    YelloButton,
+    YelloInput,
+    YelloTextarea
 }
