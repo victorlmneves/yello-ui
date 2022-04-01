@@ -1,7 +1,7 @@
 {
   "name": "@victorlmneves/yello-ui",
   "private": false,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "./dist/yello.md.js",
   "module": "./dist/yello.es.js",
   "exports": {
