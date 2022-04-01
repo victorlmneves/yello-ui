@@ -1,9 +1,9 @@
-import YelloButton from './YelloButton/YelloButton.vue'
-import YelloInput from './YelloInput/YelloInput.vue'
-import YelloTextarea from './YelloTextarea/YelloTextarea.vue'
+import DekpButton from './DekpButton/DekpButton.vue'
+import DekpInput from './DekpInput/DekpInput.vue'
+import DekpTextarea from './DekpTextarea/DekpTextarea.vue'
 
 export default {
-    YelloButton,
-    YelloInput,
-    YelloTextarea
+    DekpButton,
+    DekpInput,
+    DekpTextarea
 }

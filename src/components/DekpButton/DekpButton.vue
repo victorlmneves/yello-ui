@@ -1,6 +1,6 @@
 <script lang="ts">
   export default {
-    name: 'YelloButton',
+    name: 'DekpButton',
     inheritAttrs: false,
     customOptions: {}
   }
