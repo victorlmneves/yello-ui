@@ -1,6 +1,6 @@
 <script lang="ts">
   export default {
-    name: 'BaseTextarea',
+    name: 'YelloTextarea',
     inheritAttrs: false,
     customOptions: {}
   }
