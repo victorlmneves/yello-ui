@@ -1,6 +1,6 @@
 <script lang="ts">
   export default {
-    name: 'YelloTextarea',
+    name: 'DekpTextarea',
     inheritAttrs: false,
     customOptions: {}
   }
