@@ -11,18 +11,6 @@ const plugin = {
         Vue.component(component.props.componentName.default, component)
       }
     }
-
-    // console.log('=============', components)
-
-    // for (const prop in components) {
-    //   index++
-    //   Vue.component(prop, components[index])
-    // }
-
-    // components.forEach(component, index => {
-    //   console.log('>>>>>>>>>>>>>', component)
-    //   Vue.component(component, component[index])
-    // });
   }
 }
 

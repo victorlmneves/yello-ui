@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# VuePress
+docs/.vuepress/dist
+docs/.vuepress/.*
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

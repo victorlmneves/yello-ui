@@ -18,6 +18,7 @@ const props = withDefaults(
         isDisabled: false,
     }
 );
+
 const cssClass = computed(() => {
     let className: string;
 
