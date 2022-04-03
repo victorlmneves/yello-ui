@@ -1,11 +1,3 @@
-<script lang="ts">
-  export default {
-    name: 'DekpInput',
-    inheritAttrs: false,
-    customOptions: {}
-  }
-</script>
-
 <script setup lang="ts">
 import { ref } from 'vue';
 

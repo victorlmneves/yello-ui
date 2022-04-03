@@ -5,9 +5,9 @@ const plugin = {
     console.log('[vuepress-plugin-dekp] install', components)
     for (const prop in components) {
       console.log('prop', prop)
-      if (components.hasOwnProperty(prop)) {
-        const component = components[prop]
-        Vue.component(component.name, component)
+      if (prop !== undefined) {
+        // const component = components[prop]
+        Vue.component(prop, prop)
       }
     }
   }
