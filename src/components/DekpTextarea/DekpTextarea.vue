@@ -1,13 +1,14 @@
-<script lang="ts">
-  export default {
-    name: 'DekpTextarea',
-    inheritAttrs: false,
-    customOptions: {}
-  }
-</script>
-
 <script setup lang="ts">
 import { ref } from 'vue';
+
+const props = withDefaults(
+    defineProps<{
+        componentName: string;
+    }>(),
+    {
+        componentName: 'DekpTextarea',
+    }
+);
 
 const disabled = ref(false);
 const textareaValue = ref('');

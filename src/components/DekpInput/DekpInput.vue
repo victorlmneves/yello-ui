@@ -1,13 +1,14 @@
-<script lang="ts">
-  export default {
-    name: 'DekpInput',
-    inheritAttrs: false,
-    customOptions: {}
-  }
-</script>
-
 <script setup lang="ts">
 import { ref } from 'vue';
+
+const props = withDefaults(
+    defineProps<{
+        componentName: string;
+    }>(),
+    {
+        componentName: 'DekpInput',
+    }
+);
 
 const disabled = ref(false);
 const inputValue = ref('');

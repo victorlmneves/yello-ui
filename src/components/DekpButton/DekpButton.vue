@@ -1,16 +1,9 @@
-<script lang="ts">
-  export default {
-    name: 'DekpButton',
-    inheritAttrs: false,
-    customOptions: {}
-  }
-</script>
-
 <script setup lang="ts">
 import { computed } from 'vue';
 
 const props = withDefaults(
     defineProps<{
+        componentName: string;
         text: string;
         ariaLabel?: string;
         type?: 'reset' | 'submit' | 'button' | undefined;
@@ -18,6 +11,7 @@ const props = withDefaults(
         isDisabled?: boolean;
     }>(),
     {
+        componentName: 'DekpButton',
         type: 'button',
         ariaLabel: undefined,
         priority: 'primary',
