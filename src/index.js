@@ -2,7 +2,6 @@ import components from './components'
 
 const plugin = {
   install(Vue) {
-    let index = 0
     for (const prop in components) {
       if (components.hasOwnProperty(prop)) {
         const component = components[prop]
