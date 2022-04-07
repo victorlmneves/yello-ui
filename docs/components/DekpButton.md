@@ -88,3 +88,8 @@ const ariaText = computed(() => {
   type="button"
 ></BaseButton>
 ```
+
+<br/>
+<br/>
+
+<!-- <vue-example text="test button" file="DekpButton" /> -->

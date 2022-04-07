@@ -1,8 +1,12 @@
+// const VueExamplePlugin = require('vuepress-plugin-vue-example')
+const path = require('path')
+
 module.exports = {
   bundler: '@vuepress/bundler-vite',
   title: 'Yello UI Library',
   themeConfig: {
     // darkMode: false,
+    logo: '/assets/yello/images/logo.svg',
     sidebar: [
       {
         title: 'Components',
@@ -26,5 +30,10 @@ module.exports = {
         },
       },
     ],
+    // VueExamplePlugin({
+    //   // You need to provide a directory that all the example .vue files will be stored.
+    //   // You can use sub-directories to separate examples into categories.
+    //   componentsPath: '/docs/.examples/'
+    // })
   ],
 }
